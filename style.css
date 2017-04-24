@@ -1,0 +1,104 @@
+body {
+  background-color: #080808;
+}
+@font-face {
+  font-family: 'Game Font'; 
+  src: url('gametitlefont.ttf'); 
+}
+
+@font-face {
+  font-family: 'Game Numbers'; 
+  src: url('Aller_Rg.ttf'); 
+}
+td {
+  background-color: #36648B;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  padding: 3px;
+  transition: background-color 0.5s;
+  font-family: 'Game Numbers';
+  color : #F0F0F0 ;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 3px;
+}
+.cell-clicked {
+   background-color: #0EBFE9;
+   transition: background-color 0.5s;
+   color: black;
+}
+.cell-current {
+  outline: 2px solid black;
+}
+.timer-bar {
+  border-radius: 30px;
+  background-color: #FF2400;
+  width: 600px;
+  height: 20px;
+  transition: width 0.5s;
+  margin-bottom: 35px;
+  font-family: 'Game Font';
+  color : white;
+  font-size: 20px; 
+}
+
+.game-title {
+  font-family: 'Game Font';
+  font-size: 30px;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  color: white;
+}
+
+.board-value {
+  outline: #104E8B solid 2px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'Game Numbers';
+  font-size: 25px;
+  color: white;
+}
+.board-value-box {
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.board-count {
+  font-family: 'Game Numbers';
+  font-size: 15px;
+  color: white;
+}
+
+.button {
+  font-family: 'Game Numbers';
+  font-size: 15px;
+  padding: 10px;
+  margin-top: 6px;
+  background-color: #BCD2EE;
+  /*padding: 0;*/
+  border: none;
+}
+
+.how-to-text {
+  font-family: 'Game Numbers';
+  font-size: 14px;
+  font-weight: 50px;
+  outline : #26466D solid 2px;
+  padding: 20px;
+  color: white;
+}
+.how-to-box {
+  margin-top: 35px;
+}
+
+.start-game-btn {
+  margin-right: 30px;
+}
+
+.how-to-btn {
+  margin-left: 30px;
+}
